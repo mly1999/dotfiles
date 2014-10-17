@@ -1,0 +1,10 @@
+export JAVA_HOME=$(/usr/libexec/java_home)
+export M2_HOME=/Applications/dev/tools/apache-maven
+export CATALINA_HOME=/Applications/dev/tools/apache-tomcat
+export ANDROID_HOME=/Applications/dev/tools/adt-bundle-mac-x86_64-20140702/sdk
+export TIZEN_SDK_HOME=/Applications/dev/tools/tizen-wearable-sdk
+
+POSTGRESAPP_HOME=/Applications/Postgres.app/Contents/Versions/9.3
+
+export PATH=$PATH:$JAVA_HOME/bin:$M2_HOME/bin:$CATALINA_HOME/bin:$TIZEN_SDK_HOME/tools:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$POSTGRESAPP_HOME/bin
+
